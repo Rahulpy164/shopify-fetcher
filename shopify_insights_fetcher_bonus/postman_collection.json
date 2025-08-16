@@ -1,0 +1,40 @@
+{
+  "info": {
+    "name": "Shopify Insights Fetcher",
+    "_postman_id": "a1b2c3d4-e5f6-7a89-b0c1-d2e3f4a5b6c7",
+    "description": "Demo collection for the FastAPI backend",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Analyze Store",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"website_url\": \"https://memy.co.in\",\n  \"include_competitors\": true,\n  \"persist\": false\n}"
+        },
+        "url": {
+          "raw": "http://127.0.0.1:8000/analyze",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "analyze"
+          ]
+        }
+      }
+    }
+  ]
+}
