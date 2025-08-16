@@ -118,6 +118,3 @@ shopify_insights_fetcher/
 
 ---
 
-## 👤 Author
-
-GenAI Developer Intern Assignment — Shopify Insights Fetcher
